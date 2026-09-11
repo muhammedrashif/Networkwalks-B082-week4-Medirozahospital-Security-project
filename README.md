@@ -7,11 +7,11 @@ A controlled security assessment of the **Mediroza Hospital web application**, c
 
 This project focuses on identifying security weaknesses related to authentication, access control, sensitive data exposure, database security, and password/hash protection.
 
-> ⚠️ **Educational & Authorized Assessment Only**
+>  **Educational & Authorized Assessment Only**
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 This repository documents a structured security assessment performed against the Mediroza Hospital application in an authorized and controlled environment.
 
@@ -32,7 +32,7 @@ All activities were performed within an authorized cybersecurity lab environment
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 The main objectives of this assessment were:
 
@@ -49,7 +49,7 @@ The main objectives of this assessment were:
 
 ---
 
-## 🧪 Assessment Methodology
+##  Assessment Methodology
 
 The assessment followed a structured penetration-testing workflow:
 
@@ -79,7 +79,7 @@ Final Report
 
 # 📂 Assessment Milestones
 
-## 🔹 M1 – Initial Access
+##  M1 – Initial Access
 
 ### Focus
 
@@ -96,11 +96,12 @@ Final Report
 Determine whether weaknesses in authentication or application input handling could result in unauthorized access.
 
 ### Evidence
+![NAT Network](adminpage.png)
 
 Screenshots and relevant findings are available in:
 
 ```text
-M1-Initial-Access/
+
 ```
 
 ---
@@ -122,9 +123,10 @@ Determine whether application weaknesses could expose information outside the in
 > 🔒 Sensitive patient information has been redacted and is not included in this public repository.
 
 ### Evidence
+![NAT Network](burpsuite.png)
+![NAT Network](medirozarobots.png)
 
 ```text
-M2-Data-Extraction/
 ```
 
 ---
@@ -146,9 +148,10 @@ Evaluate whether exposed database resources could result in unauthorized access 
 > 🔒 Database records, credentials, and other sensitive information are not published in this repository.
 
 ### Evidence
+![Kali Linux VirtualBox](Lab.png)
+![NAT Network](report1.png)
 
 ```text
-M3-Database-Exposure/
 ```
 
 ---
@@ -170,9 +173,9 @@ Determine whether the password-protection mechanism provides adequate resistance
 > 🔒 Actual passwords and sensitive credential values are not included in this repository.
 
 ### Evidence
+![NAT Network](passwordcrack.png)
 
 ```text
-M4-Password-Assessment/
 ```
 
 ---
